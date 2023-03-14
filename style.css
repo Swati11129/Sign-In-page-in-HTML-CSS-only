@@ -7,25 +7,23 @@
 body{
     min-height: 100vh;
     background-color:  #f8f7f7;;
-    display:flex;
     font-family: sans-serif;
 }
 .container{
 
-     width: 100%;
+    width: 100%;
     height: 100vh;
     position: relative;
 
 }
 
 .container form{
-     width: 435px;
+    width: 435px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 50px;
-    /* background-color: rgb(253,253,253); */
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(158,201,250,.3);;
@@ -35,7 +33,6 @@ body{
     display: block;
       margin: 0 auto;
       max-width: 180px;
-      align-items: center;
       margin-bottom: 20px;
 }
 .container form .form-control{
@@ -81,11 +78,8 @@ a{
    
     border: 0;
     height: 1px;
-    background: rgb(165, 160, 160);
-    display: flex;   
+    background: rgb(165, 160, 160);  
     margin: auto;
-    /* margin-top: 20px; */
-    top: 1px;
     width: 70%;
 
 }
